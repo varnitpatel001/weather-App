@@ -1,0 +1,86 @@
+body{padding:  0 10%;
+    height: 0vh;
+    background-image:url(https://wallpaperaccess.com/full/284553.jpg);
+     ; }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 400px;
+        margin: 15% auto;
+        padding: 20px;
+        background-color: #f4f4f4;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        opacity: 0.7;
+      }
+      
+      .heading {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #333;
+      }
+      
+      .input {
+        width: 80%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        opacity: 0.9;
+      }
+      
+      .btn {
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    
+    
+        opacity: 1;
+      }
+      
+      .btn:hover {
+        background-color: #21885a;
+      }
+      
+      .error {
+        color: red;
+        margin-top: 10px;
+        
+      }
+      
+      .weather-details {
+        background-color: white;
+        padding: 15px;
+        border-radius: 8px;
+        margin-top: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        opacity: 1;
+      }
+      
+      .weather-details h3 {
+        margin-bottom: 10px;
+        font-size: 22px;
+        color: #007bff;
+      }
+      
+      .weather-details p {
+        font-size: 16px;
+        color: #555;
+        margin: 5px 0;
+      }
+      @media (max-width: 768px) {
+        body{object-fit: cover ;
+    
+            background-position : center; 
+            background-repeat: no-repeat;
+            background-image: url(https://c.wallhere.com/photos/5d/20/clouds_sky_vertical_portrait_display-1688763.jpg!d);
+               }
+      }
+      p{ opacity: 1;}
